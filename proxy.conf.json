@@ -1,0 +1,10 @@
+{
+    "/api": {
+        "target": "https://collectionapi.metmuseum.org/public/collection/v1/",
+        "secure": false,
+        "pathRewrite": {
+            "^/api": ""
+        },
+        "changeOrigin": true
+    }
+}

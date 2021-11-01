@@ -1,0 +1,67 @@
+<div class="container py-5">
+
+  <div class="row pb-3">
+    <div class="col-12 d-flex justify-content-center">
+      <span class="fs-3">
+        Metropolitan Museum
+      </span>
+    </div>
+    <div class="col-12 d-flex justify-content-center mt-2">
+      <span class="fs-3">
+        Historical Art Collection
+      </span>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="col" *ngFor="let item of allItemsListGeneral">
+      <div class="card h-100">
+        <div class="card-header">
+          Artist: {{item.artistDisplayName}}
+        </div>
+        <img src="{{item.primaryImageSmall}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">
+            <strong>
+              Name: {{item.title}}
+            </strong>
+          </h4>
+          <div class="card-text">
+            <div class="row">
+              <div class="col-12">
+                Antiquity: {{item.objectDate}}
+              </div>
+              <div class="col-12 pt-1">
+                Type: {{item.objectName}}
+              </div>
+              <div class="col-12 pt-1">
+                Materials: {{item.medium}}
+              </div>
+              <div class="col-12 pt-1">
+                Credit item: {{item.creditLine}}
+              </div>
+              <div class="col-12 pt-1">
+                Dimentions: {{item.dimensions}}
+              </div>
+              <div class="col-12 pt-1">
+                Museum URL: <a href="{{item.objectURL}}">Go to this object</a>
+              </div>
+              <div class="col-12 pt-3">
+                <div class="d-grid gap-2">
+                  <button type="button" class="btn btn-primary" (click)="GoToSpecificItem(item.objectID)">More about
+                    this object</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Credit to: {{item.repository}}</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>

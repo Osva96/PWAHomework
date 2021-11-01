@@ -1,0 +1,64 @@
+<div class="container py-4" *ngFor="let item of itemInformation">
+  <div class="row">
+    <div class="col-4 p-2">
+      <img src="{{item.primaryImageSmall}}" alt="..." style="width: 370px; height: auto;">
+    </div>
+    <div class="col-8">
+      <div class="row">
+        <div class="col-12 justify-content-center d-flex align-items-center">
+          <span class="fs-1 my-3">
+            <strong>
+              Information about this Item
+            </strong>
+          </span>
+        </div>
+        <div class="col-12 mt-5 ms-3">
+          <div>
+            <strong>Name: </strong>{{item.title}}
+          </div>
+          <br>
+          <div>
+            <strong>Artist: </strong>{{item.artistDisplayName}} - {{item.artistGender}}
+          </div>
+          <br>
+          <div>
+            <strong>About artist: </strong>{{item.artistDisplayBio}}
+          </div>
+          <br>
+          <div>
+            <strong>Classification: </strong>{{item.classification}}
+          </div>
+          <br>
+          <div>
+            <strong>Department: </strong>{{item.department}}
+          </div>
+          <br>
+          <div>
+            <strong>Dimensions: </strong>{{item.dimensions}}
+          </div>
+          <br>
+          <div>
+            <strong>Date: </strong>{{item.objectDate}}
+          </div>
+          <br>
+          <div>
+            <strong>Medium: </strong>{{item.medium}}
+          </div>
+          <br>
+          <div>
+            <strong>Credit: </strong>{{item.creditLine}}
+          </div>
+          <br>
+          <div>
+            <strong>ID: </strong>{{item.objectID}}
+          </div>
+          <br>
+          <div>
+            <strong>Gallery Number: </strong>{{item.GalleryNumber}}
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
