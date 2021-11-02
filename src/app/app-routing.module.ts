@@ -5,9 +5,9 @@ import { MuseumitemsComponent } from 'src/app/pages/museumitems/museumitems.comp
 import { UniqueitemComponent } from 'src/app/pages/uniqueitem/uniqueitem.component';
 
 const routes: Routes = [
-  {path: 'museum', component: MuseumitemsComponent},
-  {path: '', pathMatch: 'full', redirectTo: 'museum'},
-  {path: 'item/:id', component: UniqueitemComponent }
+  { path: '', component: MuseumitemsComponent },
+  /* { path: '', pathMatch: 'full', redirectTo: 'museum' }, */
+  { path: 'item/:id', component: UniqueitemComponent }
 ];
 
 @NgModule({

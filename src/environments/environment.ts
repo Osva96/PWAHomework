@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  URL: 'http://localhost:4200/api/'
+  URL: 'https://collectionapi.metmuseum.org/public/collection/v1/'
 };
 
 /*
