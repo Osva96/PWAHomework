@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'item/:id', component: UniqueitemComponent }
 ];
 
+/* Hash in imports of Router module */
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

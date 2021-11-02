@@ -1,9 +1,10 @@
 {
-  "name": "HomeworkAngular1",
-  "short_name": "HomeworkAngular1",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "Metropolitan Museum",
+  "short_name": "Museum",
+  "theme_color": "#472161",
+  "background_color": "#214061",
   "display": "standalone",
+  "orientation": "portrait",
   "scope": "./",
   "start_url": "./",
   "icons": [

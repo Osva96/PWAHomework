@@ -1,5 +1,13 @@
 <div class="container py-5">
 
+  <div class="row" *ngIf="networkStatus == false" style="color: white; background-color: red;">
+    <div class="col-12 d-flex justify-content-center">
+      <span class="fw-bold fs-5">
+        Network Status: OFFLINE
+      </span>
+    </div>
+  </div>
+
   <div class="row pb-3">
     <div class="col-12 d-flex justify-content-center">
       <span class="fs-3">
@@ -17,8 +25,15 @@
 
     <div class="col" *ngFor="let item of allItemsListGeneral">
       <div class="card h-100">
-        <div class="card-header">
-          Artist: {{item.artistDisplayName}}
+        <div *ngIf="networkStatus == false">
+          <div class="card-header">
+            Artist: {{item.artistDisplayName}} - <span style="color: crimson;" class="fw-bold"> OFFLINE </span>
+          </div>
+        </div>
+        <div *ngIf="networkStatus == true">
+          <div class="card-header">
+            Artist: {{item.artistDisplayName}}
+          </div>
         </div>
         <img src="{{item.primaryImageSmall}}" class="card-img-top" alt="...">
         <div class="card-body">
