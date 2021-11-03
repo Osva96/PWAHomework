@@ -17,7 +17,7 @@ export class MuseumService {
   ) { }
 
   GetAllItems() {
-    const url = `${environment.URL}search?isOnView=true&q=sunflower`;
+    const url = `${environment.URL}search?isOnView=true&q=insect`;
 
     return this.httpClient.get(url);
   }
