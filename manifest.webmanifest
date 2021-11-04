@@ -5,8 +5,8 @@
   "background_color": "#214061",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "./",
-  "start_url": "./",
+  "scope": "/HomeworkAngular1/",
+  "start_url": "/HomeworkAngular1/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",

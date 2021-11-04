@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1635970087304,
+  "timestamp": 1636054485609,
   "appData": {
     "version": "1.0.0",
     "changelog": "Updated Angular"
@@ -17,7 +17,7 @@
       "urls": [
         "./favicon.ico",
         "./index.html",
-        "./main.b3208a7245a983231072.js",
+        "./main.628fa41c7199ef3aeb0b.js",
         "./manifest.webmanifest",
         "./polyfills.93b02ef5a9f43a1fddaf.js",
         "./runtime.28ef66113805cbec47aa.js",
@@ -56,9 +56,9 @@
         "https:\\/\\/collectionapi\\.metmuseum\\.org\\/public\\/collection\\/v1\\/"
       ],
       "strategy": "freshness",
-      "maxSize": 5,
-      "maxAge": 3000000,
-      "timeoutMs": 5000,
+      "maxSize": 300,
+      "maxAge": 3600000,
+      "timeoutMs": 30000,
       "cacheQueryOptions": {
         "ignoreVary": true
       },
@@ -75,9 +75,9 @@
     "./assets/icons/icon-72x72.png": "ace6ac54e5b410b28ca58c81c1e8c4c996ae72fa",
     "./assets/icons/icon-96x96.png": "c532d5f1b8604407eb207635d1b2cb4041b84a98",
     "./favicon.ico": "5e46d0820bfddc745e47a001ba9786b6cde5fcfc",
-    "./index.html": "baa57d121e8a409644db55ba6ead981d7c791789",
-    "./main.b3208a7245a983231072.js": "44e0692805b2e247ffe61e77ff8294d7b642b2bb",
-    "./manifest.webmanifest": "f391f3195c32a9a84228c72a85b029467bbf7705",
+    "./index.html": "c10a5e13abddd8f986954172ae0cdaf50a259f39",
+    "./main.628fa41c7199ef3aeb0b.js": "18e27f215130c68d4932f114d88d34c9ab529caf",
+    "./manifest.webmanifest": "bebdb815d996f12adbc5b26d0e6dd23259de1224",
     "./polyfills.93b02ef5a9f43a1fddaf.js": "fff166ccdf699d9a6f119893489e7f1351d7d3a9",
     "./runtime.28ef66113805cbec47aa.js": "c6eb7a35d97d7c832be6418b67d8bf778306e17f",
     "./styles.dbe0c2c08217256f6911.css": "6c1d1fab6e894cf6ecd26fd9b19239ca3ae53cd4"
