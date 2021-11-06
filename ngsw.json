@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636160416601,
+  "timestamp": 1636161670922,
   "appData": {
     "version": "1.0.0",
     "changelog": "Updated Angular"
@@ -17,7 +17,7 @@
       "urls": [
         "./favicon.ico",
         "./index.html",
-        "./main.47c71bba537f47accb78.js",
+        "./main.b8c939f0bf85089c184a.js",
         "./polyfills.93b02ef5a9f43a1fddaf.js",
         "./runtime.28ef66113805cbec47aa.js",
         "./styles.e9294c775c54d50b3019.css"
@@ -79,8 +79,8 @@
     "./assets/icons/icon-96x96.png": "c532d5f1b8604407eb207635d1b2cb4041b84a98",
     "./assets/main/home_main.png": "ef5c3727245c519968ae18fc20acdba7815640b4",
     "./favicon.ico": "5e46d0820bfddc745e47a001ba9786b6cde5fcfc",
-    "./index.html": "cf7d30380e2deff5a8919ce2c2ef06633813e0b5",
-    "./main.47c71bba537f47accb78.js": "8e0aeee2144c4cf200e65cede56568fcc2857bcc",
+    "./index.html": "5ca9cc6eb56bd10d329f49fd00a3940bd58a488d",
+    "./main.b8c939f0bf85089c184a.js": "c60ffe7e3a245ba4a152315104a143b5a1f6f982",
     "./polyfills.93b02ef5a9f43a1fddaf.js": "fff166ccdf699d9a6f119893489e7f1351d7d3a9",
     "./runtime.28ef66113805cbec47aa.js": "c6eb7a35d97d7c832be6418b67d8bf778306e17f",
     "./styles.e9294c775c54d50b3019.css": "78b135ad60c296b79e0a9886dbc479c555ab544b"
