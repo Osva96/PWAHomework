@@ -31,6 +31,7 @@
       "resources": {
         "files": [
           "/assets/**",
+          "/assets/main/**",
           "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
         ]
       }
@@ -40,7 +41,10 @@
     {
       "name": "data-api",
       "urls": [
-        "https://collectionapi.metmuseum.org/public/collection/v1/"
+        "https://collectionapi.metmuseum.org/public/collection/v1/",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/**",
+        "https://images.metmuseum.org/CRDImages/**",
+        "https://www.metmuseum.org/art/collection/search/**"
       ],
       "cacheConfig": {
         "strategy": "freshness",
